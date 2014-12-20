@@ -7,6 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EE4FC21718CBE2650070C04F /* SpriteKitMapController.m in Sources */ = {isa = PBXBuildFile; fileRef = EE4FC21618CBE2650070C04F /* SpriteKitMapController.m */; };
+		EE4FC21918CBE9580070C04F /* map.png in Resources */ = {isa = PBXBuildFile; fileRef = EE4FC21818CBE9580070C04F /* map.png */; };
+		EE4FC21B18CC03C00070C04F /* point@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EE4FC21A18CC03C00070C04F /* point@2x.png */; };
+		EE4FC22718CD2FEF0070C04F /* a_driving.png in Resources */ = {isa = PBXBuildFile; fileRef = EE4FC21D18CD2FEF0070C04F /* a_driving.png */; };
+		EE4FC22818CD2FEF0070C04F /* a_driving@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EE4FC21E18CD2FEF0070C04F /* a_driving@2x.png */; };
+		EE4FC22918CD2FEF0070C04F /* a_running.png in Resources */ = {isa = PBXBuildFile; fileRef = EE4FC21F18CD2FEF0070C04F /* a_running.png */; };
+		EE4FC22A18CD2FEF0070C04F /* a_running@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EE4FC22018CD2FEF0070C04F /* a_running@2x.png */; };
+		EE4FC22B18CD2FEF0070C04F /* a_stationary.png in Resources */ = {isa = PBXBuildFile; fileRef = EE4FC22118CD2FEF0070C04F /* a_stationary.png */; };
+		EE4FC22C18CD2FEF0070C04F /* a_stationary@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EE4FC22218CD2FEF0070C04F /* a_stationary@2x.png */; };
+		EE4FC22D18CD2FEF0070C04F /* a_unknown.png in Resources */ = {isa = PBXBuildFile; fileRef = EE4FC22318CD2FEF0070C04F /* a_unknown.png */; };
+		EE4FC22E18CD2FEF0070C04F /* a_unknown@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EE4FC22418CD2FEF0070C04F /* a_unknown@2x.png */; };
+		EE4FC22F18CD2FEF0070C04F /* a_walking.png in Resources */ = {isa = PBXBuildFile; fileRef = EE4FC22518CD2FEF0070C04F /* a_walking.png */; };
+		EE4FC23018CD2FEF0070C04F /* a_walking@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EE4FC22618CD2FEF0070C04F /* a_walking@2x.png */; };
+		EE4FC23318CD34AD0070C04F /* SpriteKitM7Controller.m in Sources */ = {isa = PBXBuildFile; fileRef = EE4FC23218CD34AD0070C04F /* SpriteKitM7Controller.m */; };
+		EE4FC23618CD353F0070C04F /* Utility.m in Sources */ = {isa = PBXBuildFile; fileRef = EE4FC23518CD353F0070C04F /* Utility.m */; };
 		EE7A395918C407DA008D555C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE7A395818C407DA008D555C /* Foundation.framework */; };
 		EE7A395B18C407DA008D555C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE7A395A18C407DA008D555C /* CoreGraphics.framework */; };
 		EE7A395D18C407DA008D555C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE7A395C18C407DA008D555C /* UIKit.framework */; };
@@ -23,6 +38,22 @@
 		EE7A398018C407DA008D555C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE7A395C18C407DA008D555C /* UIKit.framework */; };
 		EE7A398818C407DA008D555C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = EE7A398618C407DA008D555C /* InfoPlist.strings */; };
 		EE7A398A18C407DA008D555C /* CollectSensorDataTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EE7A398918C407DA008D555C /* CollectSensorDataTests.m */; };
+		EE7A399518C42B28008D555C /* FrequencyConsulter.m in Sources */ = {isa = PBXBuildFile; fileRef = EE7A399418C42B28008D555C /* FrequencyConsulter.m */; };
+		EEC39AF118D8CA6E004E7A14 /* FileInZipInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = EEC39AE818D8CA6E004E7A14 /* FileInZipInfo.m */; };
+		EEC39AF218D8CA6E004E7A14 /* ZipException.m in Sources */ = {isa = PBXBuildFile; fileRef = EEC39AEA18D8CA6E004E7A14 /* ZipException.m */; };
+		EEC39AF318D8CA6E004E7A14 /* ZipFile.m in Sources */ = {isa = PBXBuildFile; fileRef = EEC39AEC18D8CA6E004E7A14 /* ZipFile.m */; };
+		EEC39AF418D8CA6E004E7A14 /* ZipReadStream.m in Sources */ = {isa = PBXBuildFile; fileRef = EEC39AEE18D8CA6E004E7A14 /* ZipReadStream.m */; };
+		EEC39AF518D8CA6E004E7A14 /* ZipWriteStream.m in Sources */ = {isa = PBXBuildFile; fileRef = EEC39AF018D8CA6E004E7A14 /* ZipWriteStream.m */; };
+		EEC39AFE18D8CEAF004E7A14 /* ioapi.c in Sources */ = {isa = PBXBuildFile; fileRef = EEC39AF618D8CEAF004E7A14 /* ioapi.c */; };
+		EEC39AFF18D8CEAF004E7A14 /* mztools.c in Sources */ = {isa = PBXBuildFile; fileRef = EEC39AF818D8CEAF004E7A14 /* mztools.c */; };
+		EEC39B0018D8CEAF004E7A14 /* unzip.c in Sources */ = {isa = PBXBuildFile; fileRef = EEC39AFA18D8CEAF004E7A14 /* unzip.c */; };
+		EEC39B0118D8CEAF004E7A14 /* zip.c in Sources */ = {isa = PBXBuildFile; fileRef = EEC39AFC18D8CEAF004E7A14 /* zip.c */; };
+		EEC39B0518D8D10A004E7A14 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = EEC39B0418D8D10A004E7A14 /* libz.dylib */; };
+		EEC39B0818D8D86B004E7A14 /* LogManager.m in Sources */ = {isa = PBXBuildFile; fileRef = EEC39B0718D8D86B004E7A14 /* LogManager.m */; };
+		EEC39B0F18DA62F6004E7A14 /* SpriteKitTakeNote.m in Sources */ = {isa = PBXBuildFile; fileRef = EEC39B0E18DA62F6004E7A14 /* SpriteKitTakeNote.m */; };
+		EEC39B2118DB4443004E7A14 /* activity_icon_29@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EEC39B1E18DB4443004E7A14 /* activity_icon_29@2x.png */; };
+		EEC39B2218DB4443004E7A14 /* activity_icon_40@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EEC39B1F18DB4443004E7A14 /* activity_icon_40@2x.png */; };
+		EEC39B2318DB4443004E7A14 /* activity_icon_60@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EEC39B2018DB4443004E7A14 /* activity_icon_60@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +67,24 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		EE4FC21518CBE2650070C04F /* SpriteKitMapController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SpriteKitMapController.h; sourceTree = "<group>"; };
+		EE4FC21618CBE2650070C04F /* SpriteKitMapController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SpriteKitMapController.m; sourceTree = "<group>"; };
+		EE4FC21818CBE9580070C04F /* map.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = map.png; sourceTree = "<group>"; };
+		EE4FC21A18CC03C00070C04F /* point@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "point@2x.png"; sourceTree = "<group>"; };
+		EE4FC21D18CD2FEF0070C04F /* a_driving.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = a_driving.png; path = ../a_driving.png; sourceTree = "<group>"; };
+		EE4FC21E18CD2FEF0070C04F /* a_driving@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "a_driving@2x.png"; path = "../a_driving@2x.png"; sourceTree = "<group>"; };
+		EE4FC21F18CD2FEF0070C04F /* a_running.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = a_running.png; path = ../a_running.png; sourceTree = "<group>"; };
+		EE4FC22018CD2FEF0070C04F /* a_running@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "a_running@2x.png"; path = "../a_running@2x.png"; sourceTree = "<group>"; };
+		EE4FC22118CD2FEF0070C04F /* a_stationary.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = a_stationary.png; path = ../a_stationary.png; sourceTree = "<group>"; };
+		EE4FC22218CD2FEF0070C04F /* a_stationary@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "a_stationary@2x.png"; path = "../a_stationary@2x.png"; sourceTree = "<group>"; };
+		EE4FC22318CD2FEF0070C04F /* a_unknown.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = a_unknown.png; path = ../a_unknown.png; sourceTree = "<group>"; };
+		EE4FC22418CD2FEF0070C04F /* a_unknown@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "a_unknown@2x.png"; path = "../a_unknown@2x.png"; sourceTree = "<group>"; };
+		EE4FC22518CD2FEF0070C04F /* a_walking.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = a_walking.png; path = ../a_walking.png; sourceTree = "<group>"; };
+		EE4FC22618CD2FEF0070C04F /* a_walking@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "a_walking@2x.png"; path = "../a_walking@2x.png"; sourceTree = "<group>"; };
+		EE4FC23118CD34AD0070C04F /* SpriteKitM7Controller.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SpriteKitM7Controller.h; sourceTree = "<group>"; };
+		EE4FC23218CD34AD0070C04F /* SpriteKitM7Controller.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SpriteKitM7Controller.m; sourceTree = "<group>"; };
+		EE4FC23418CD353F0070C04F /* Utility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Utility.h; sourceTree = "<group>"; };
+		EE4FC23518CD353F0070C04F /* Utility.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Utility.m; sourceTree = "<group>"; };
 		EE7A395518C407DA008D555C /* CollectSensorData.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CollectSensorData.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EE7A395818C407DA008D555C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		EE7A395A18C407DA008D555C /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -58,6 +107,35 @@
 		EE7A398518C407DA008D555C /* CollectSensorDataTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CollectSensorDataTests-Info.plist"; sourceTree = "<group>"; };
 		EE7A398718C407DA008D555C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		EE7A398918C407DA008D555C /* CollectSensorDataTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CollectSensorDataTests.m; sourceTree = "<group>"; };
+		EE7A399318C42B28008D555C /* FrequencyConsulter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FrequencyConsulter.h; sourceTree = "<group>"; };
+		EE7A399418C42B28008D555C /* FrequencyConsulter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FrequencyConsulter.m; sourceTree = "<group>"; };
+		EEC39AE718D8CA6E004E7A14 /* FileInZipInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FileInZipInfo.h; path = ../FileInZipInfo.h; sourceTree = "<group>"; };
+		EEC39AE818D8CA6E004E7A14 /* FileInZipInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FileInZipInfo.m; path = ../FileInZipInfo.m; sourceTree = "<group>"; };
+		EEC39AE918D8CA6E004E7A14 /* ZipException.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ZipException.h; path = ../ZipException.h; sourceTree = "<group>"; };
+		EEC39AEA18D8CA6E004E7A14 /* ZipException.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ZipException.m; path = ../ZipException.m; sourceTree = "<group>"; };
+		EEC39AEB18D8CA6E004E7A14 /* ZipFile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ZipFile.h; path = ../ZipFile.h; sourceTree = "<group>"; };
+		EEC39AEC18D8CA6E004E7A14 /* ZipFile.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ZipFile.m; path = ../ZipFile.m; sourceTree = "<group>"; };
+		EEC39AED18D8CA6E004E7A14 /* ZipReadStream.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ZipReadStream.h; path = ../ZipReadStream.h; sourceTree = "<group>"; };
+		EEC39AEE18D8CA6E004E7A14 /* ZipReadStream.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ZipReadStream.m; path = ../ZipReadStream.m; sourceTree = "<group>"; };
+		EEC39AEF18D8CA6E004E7A14 /* ZipWriteStream.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ZipWriteStream.h; path = ../ZipWriteStream.h; sourceTree = "<group>"; };
+		EEC39AF018D8CA6E004E7A14 /* ZipWriteStream.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ZipWriteStream.m; path = ../ZipWriteStream.m; sourceTree = "<group>"; };
+		EEC39AF618D8CEAF004E7A14 /* ioapi.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = ioapi.c; path = ../ioapi.c; sourceTree = "<group>"; };
+		EEC39AF718D8CEAF004E7A14 /* ioapi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ioapi.h; path = ../ioapi.h; sourceTree = "<group>"; };
+		EEC39AF818D8CEAF004E7A14 /* mztools.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = mztools.c; path = ../mztools.c; sourceTree = "<group>"; };
+		EEC39AF918D8CEAF004E7A14 /* mztools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = mztools.h; path = ../mztools.h; sourceTree = "<group>"; };
+		EEC39AFA18D8CEAF004E7A14 /* unzip.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = unzip.c; path = ../unzip.c; sourceTree = "<group>"; };
+		EEC39AFB18D8CEAF004E7A14 /* unzip.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = unzip.h; path = ../unzip.h; sourceTree = "<group>"; };
+		EEC39AFC18D8CEAF004E7A14 /* zip.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = zip.c; path = ../zip.c; sourceTree = "<group>"; };
+		EEC39AFD18D8CEAF004E7A14 /* zip.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = zip.h; path = ../zip.h; sourceTree = "<group>"; };
+		EEC39B0218D8D0E6004E7A14 /* libbz2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libbz2.dylib; path = usr/lib/libbz2.dylib; sourceTree = SDKROOT; };
+		EEC39B0418D8D10A004E7A14 /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+		EEC39B0618D8D86B004E7A14 /* LogManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LogManager.h; sourceTree = "<group>"; };
+		EEC39B0718D8D86B004E7A14 /* LogManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LogManager.m; sourceTree = "<group>"; };
+		EEC39B0D18DA62F6004E7A14 /* SpriteKitTakeNote.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SpriteKitTakeNote.h; sourceTree = "<group>"; };
+		EEC39B0E18DA62F6004E7A14 /* SpriteKitTakeNote.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SpriteKitTakeNote.m; sourceTree = "<group>"; };
+		EEC39B1E18DB4443004E7A14 /* activity_icon_29@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "activity_icon_29@2x.png"; path = "../activity_icon_29@2x.png"; sourceTree = "<group>"; };
+		EEC39B1F18DB4443004E7A14 /* activity_icon_40@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "activity_icon_40@2x.png"; path = "../activity_icon_40@2x.png"; sourceTree = "<group>"; };
+		EEC39B2018DB4443004E7A14 /* activity_icon_60@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "activity_icon_60@2x.png"; path = "../activity_icon_60@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,6 +143,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EEC39B0518D8D10A004E7A14 /* libz.dylib in Frameworks */,
 				EE7A395B18C407DA008D555C /* CoreGraphics.framework in Frameworks */,
 				EE7A395D18C407DA008D555C /* UIKit.framework in Frameworks */,
 				EE7A395918C407DA008D555C /* Foundation.framework in Frameworks */,
@@ -84,6 +163,28 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		EE4FC21C18CD2F8E0070C04F /* pictures */ = {
+			isa = PBXGroup;
+			children = (
+				EEC39B1E18DB4443004E7A14 /* activity_icon_29@2x.png */,
+				EEC39B1F18DB4443004E7A14 /* activity_icon_40@2x.png */,
+				EEC39B2018DB4443004E7A14 /* activity_icon_60@2x.png */,
+				EE4FC21D18CD2FEF0070C04F /* a_driving.png */,
+				EE4FC21E18CD2FEF0070C04F /* a_driving@2x.png */,
+				EE4FC21F18CD2FEF0070C04F /* a_running.png */,
+				EE4FC22018CD2FEF0070C04F /* a_running@2x.png */,
+				EE4FC22118CD2FEF0070C04F /* a_stationary.png */,
+				EE4FC22218CD2FEF0070C04F /* a_stationary@2x.png */,
+				EE4FC22318CD2FEF0070C04F /* a_unknown.png */,
+				EE4FC22418CD2FEF0070C04F /* a_unknown@2x.png */,
+				EE4FC22518CD2FEF0070C04F /* a_walking.png */,
+				EE4FC22618CD2FEF0070C04F /* a_walking@2x.png */,
+				EE4FC21818CBE9580070C04F /* map.png */,
+				EE4FC21A18CC03C00070C04F /* point@2x.png */,
+			);
+			name = pictures;
+			sourceTree = "<group>";
+		};
 		EE7A394C18C407DA008D555C = {
 			isa = PBXGroup;
 			children = (
@@ -106,6 +207,8 @@
 		EE7A395718C407DA008D555C /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				EEC39B0418D8D10A004E7A14 /* libz.dylib */,
+				EEC39B0218D8D0E6004E7A14 /* libbz2.dylib */,
 				EE7A395818C407DA008D555C /* Foundation.framework */,
 				EE7A395A18C407DA008D555C /* CoreGraphics.framework */,
 				EE7A395C18C407DA008D555C /* UIKit.framework */,
@@ -117,14 +220,28 @@
 		EE7A395E18C407DA008D555C /* CollectSensorData */ = {
 			isa = PBXGroup;
 			children = (
+				EEC39AE618D8C82F004E7A14 /* zip library */,
+				EE4FC21C18CD2F8E0070C04F /* pictures */,
 				EE7A396718C407DA008D555C /* SpriteKitAppDelegate.h */,
 				EE7A396818C407DA008D555C /* SpriteKitAppDelegate.m */,
 				EE7A396A18C407DA008D555C /* Main_iPhone.storyboard */,
 				EE7A396D18C407DA008D555C /* Main_iPad.storyboard */,
 				EE7A397018C407DA008D555C /* SpriteKitFirstViewController.h */,
 				EE7A397118C407DA008D555C /* SpriteKitFirstViewController.m */,
+				EE4FC23118CD34AD0070C04F /* SpriteKitM7Controller.h */,
+				EE4FC23218CD34AD0070C04F /* SpriteKitM7Controller.m */,
 				EE7A397318C407DA008D555C /* SpriteKitSecondViewController.h */,
 				EE7A397418C407DA008D555C /* SpriteKitSecondViewController.m */,
+				EE4FC21518CBE2650070C04F /* SpriteKitMapController.h */,
+				EE4FC21618CBE2650070C04F /* SpriteKitMapController.m */,
+				EEC39B0D18DA62F6004E7A14 /* SpriteKitTakeNote.h */,
+				EEC39B0E18DA62F6004E7A14 /* SpriteKitTakeNote.m */,
+				EE7A399318C42B28008D555C /* FrequencyConsulter.h */,
+				EE7A399418C42B28008D555C /* FrequencyConsulter.m */,
+				EE4FC23418CD353F0070C04F /* Utility.h */,
+				EE4FC23518CD353F0070C04F /* Utility.m */,
+				EEC39B0618D8D86B004E7A14 /* LogManager.h */,
+				EEC39B0718D8D86B004E7A14 /* LogManager.m */,
 				EE7A397618C407DA008D555C /* Images.xcassets */,
 				EE7A395F18C407DA008D555C /* Supporting Files */,
 			);
@@ -158,6 +275,31 @@
 				EE7A398618C407DA008D555C /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EEC39AE618D8C82F004E7A14 /* zip library */ = {
+			isa = PBXGroup;
+			children = (
+				EEC39AF618D8CEAF004E7A14 /* ioapi.c */,
+				EEC39AF718D8CEAF004E7A14 /* ioapi.h */,
+				EEC39AF818D8CEAF004E7A14 /* mztools.c */,
+				EEC39AF918D8CEAF004E7A14 /* mztools.h */,
+				EEC39AFA18D8CEAF004E7A14 /* unzip.c */,
+				EEC39AFB18D8CEAF004E7A14 /* unzip.h */,
+				EEC39AFC18D8CEAF004E7A14 /* zip.c */,
+				EEC39AFD18D8CEAF004E7A14 /* zip.h */,
+				EEC39AE718D8CA6E004E7A14 /* FileInZipInfo.h */,
+				EEC39AE818D8CA6E004E7A14 /* FileInZipInfo.m */,
+				EEC39AE918D8CA6E004E7A14 /* ZipException.h */,
+				EEC39AEA18D8CA6E004E7A14 /* ZipException.m */,
+				EEC39AEB18D8CA6E004E7A14 /* ZipFile.h */,
+				EEC39AEC18D8CA6E004E7A14 /* ZipFile.m */,
+				EEC39AED18D8CA6E004E7A14 /* ZipReadStream.h */,
+				EEC39AEE18D8CA6E004E7A14 /* ZipReadStream.m */,
+				EEC39AEF18D8CA6E004E7A14 /* ZipWriteStream.h */,
+				EEC39AF018D8CA6E004E7A14 /* ZipWriteStream.m */,
+			);
+			name = "zip library";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -205,9 +347,16 @@
 			isa = PBXProject;
 			attributes = {
 				CLASSPREFIX = SpriteKit;
-				LastUpgradeCheck = 0500;
+				LastUpgradeCheck = 0510;
 				ORGANIZATIONNAME = "Bo Jhang Ho";
 				TargetAttributes = {
+					EE7A395418C407DA008D555C = {
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+						};
+					};
 					EE7A397B18C407DA008D555C = {
 						TestTargetID = EE7A395418C407DA008D555C;
 					};
@@ -237,10 +386,25 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EE4FC22818CD2FEF0070C04F /* a_driving@2x.png in Resources */,
+				EE4FC22B18CD2FEF0070C04F /* a_stationary.png in Resources */,
+				EE4FC22F18CD2FEF0070C04F /* a_walking.png in Resources */,
+				EEC39B2318DB4443004E7A14 /* activity_icon_60@2x.png in Resources */,
 				EE7A396F18C407DA008D555C /* Main_iPad.storyboard in Resources */,
+				EE4FC22718CD2FEF0070C04F /* a_driving.png in Resources */,
 				EE7A397718C407DA008D555C /* Images.xcassets in Resources */,
+				EE4FC22918CD2FEF0070C04F /* a_running.png in Resources */,
+				EE4FC21B18CC03C00070C04F /* point@2x.png in Resources */,
+				EE4FC22D18CD2FEF0070C04F /* a_unknown.png in Resources */,
 				EE7A396C18C407DA008D555C /* Main_iPhone.storyboard in Resources */,
+				EE4FC23018CD2FEF0070C04F /* a_walking@2x.png in Resources */,
+				EE4FC22E18CD2FEF0070C04F /* a_unknown@2x.png in Resources */,
 				EE7A396318C407DA008D555C /* InfoPlist.strings in Resources */,
+				EEC39B2118DB4443004E7A14 /* activity_icon_29@2x.png in Resources */,
+				EEC39B2218DB4443004E7A14 /* activity_icon_40@2x.png in Resources */,
+				EE4FC22A18CD2FEF0070C04F /* a_running@2x.png in Resources */,
+				EE4FC22C18CD2FEF0070C04F /* a_stationary@2x.png in Resources */,
+				EE4FC21918CBE9580070C04F /* map.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,10 +423,25 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EEC39AF118D8CA6E004E7A14 /* FileInZipInfo.m in Sources */,
+				EE4FC23618CD353F0070C04F /* Utility.m in Sources */,
 				EE7A397518C407DA008D555C /* SpriteKitSecondViewController.m in Sources */,
+				EEC39B0F18DA62F6004E7A14 /* SpriteKitTakeNote.m in Sources */,
 				EE7A397218C407DA008D555C /* SpriteKitFirstViewController.m in Sources */,
+				EEC39AF418D8CA6E004E7A14 /* ZipReadStream.m in Sources */,
+				EE4FC23318CD34AD0070C04F /* SpriteKitM7Controller.m in Sources */,
+				EEC39B0818D8D86B004E7A14 /* LogManager.m in Sources */,
+				EEC39B0118D8CEAF004E7A14 /* zip.c in Sources */,
+				EEC39AFE18D8CEAF004E7A14 /* ioapi.c in Sources */,
+				EE7A399518C42B28008D555C /* FrequencyConsulter.m in Sources */,
 				EE7A396918C407DA008D555C /* SpriteKitAppDelegate.m in Sources */,
+				EEC39AF518D8CA6E004E7A14 /* ZipWriteStream.m in Sources */,
+				EEC39AF218D8CA6E004E7A14 /* ZipException.m in Sources */,
+				EE4FC21718CBE2650070C04F /* SpriteKitMapController.m in Sources */,
 				EE7A396518C407DA008D555C /* main.m in Sources */,
+				EEC39AF318D8CA6E004E7A14 /* ZipFile.m in Sources */,
+				EEC39B0018D8CEAF004E7A14 /* unzip.c in Sources */,
+				EEC39AFF18D8CEAF004E7A14 /* mztools.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -324,7 +503,6 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
@@ -364,7 +542,6 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
@@ -402,7 +579,8 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "CollectSensorData/CollectSensorData-Prefix.pch";
 				INFOPLIST_FILE = "CollectSensorData/CollectSensorData-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = CollectSensorData;
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -415,7 +593,8 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "CollectSensorData/CollectSensorData-Prefix.pch";
 				INFOPLIST_FILE = "CollectSensorData/CollectSensorData-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = CollectSensorData;
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -423,7 +602,6 @@
 		EE7A399118C407DA008D555C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/CollectSensorData.app/CollectSensorData";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
@@ -437,7 +615,7 @@
 					"$(inherited)",
 				);
 				INFOPLIST_FILE = "CollectSensorDataTests/CollectSensorDataTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = CollectSensorDataTests;
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
 			};
@@ -446,7 +624,6 @@
 		EE7A399218C407DA008D555C /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/CollectSensorData.app/CollectSensorData";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
@@ -456,7 +633,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "CollectSensorData/CollectSensorData-Prefix.pch";
 				INFOPLIST_FILE = "CollectSensorDataTests/CollectSensorDataTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = CollectSensorDataTests;
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
 			};
@@ -481,6 +658,7 @@
 				EE7A398F18C407DA008D555C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		EE7A399018C407DA008D555C /* Build configuration list for PBXNativeTarget "CollectSensorDataTests" */ = {
 			isa = XCConfigurationList;
@@ -489,6 +667,7 @@
 				EE7A399218C407DA008D555C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

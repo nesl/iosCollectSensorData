@@ -7,8 +7,16 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <CoreMotion/CoreMotion.h>
+#import <CoreLocation/CoreLocation.h>
+#import <CoreMotion/CMMotionActivity.h>
+#import <CoreMotion/CMMotionActivityManager.h>
 
-@interface SpriteKitAppDelegate : UIResponder <UIApplicationDelegate>
+#import "LogManager.h"
+
+bool isUIUpdating;
+
+@interface SpriteKitAppDelegate : UIResponder <UIApplicationDelegate, CLLocationManagerDelegate>
 
 @property (strong, nonatomic) UIWindow *window;
 
